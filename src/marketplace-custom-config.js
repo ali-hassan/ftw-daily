@@ -94,7 +94,7 @@ export const filters = [
   },
   {
     id: 'amenities',
-    label: 'Amenities',
+    label: 'Subjects',
     type: 'SelectMultipleFilter',
     group: 'secondary',
     queryParamNames: ['pub_amenities'],

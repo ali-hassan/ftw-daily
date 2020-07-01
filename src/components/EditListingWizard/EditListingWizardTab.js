@@ -35,7 +35,7 @@ export const SUPPORTED_TABS = [
   FEATURES,
   POLICY,
   LOCATION,
-  PRICING,
+  // PRICING,
   AVAILABILITY,
   PHOTOS,
 ];

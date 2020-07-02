@@ -35,32 +35,16 @@
 
 export const filters = [
   {
-    id: 'dates',
-    label: 'Dates',
+    id: 'category',
+    label: 'Category',
     type: 'BookingDateRangeFilter',
     group: 'primary',
     // Note: BookingDateRangeFilter is fixed filter,
     // you can't change "queryParamNames: ['dates'],"
-    queryParamNames: ['dates'],
+    queryParamNames: ['category'],
     config: {},
   },
-  {
-    id: 'price',
-    label: 'Price',
-    type: 'PriceFilter',
-    group: 'primary',
-    // Note: PriceFilter is fixed filter,
-    // you can't change "queryParamNames: ['price'],"
-    queryParamNames: ['price'],
-    // Price filter configuration
-    // Note: unlike most prices this is not handled in subunits
-    config: {
-      min: 0,
-      max: 1000,
-      step: 5,
-    },
-  },
-  {
+   {
     id: 'keyword',
     label: 'Keyword',
     type: 'KeywordFilter',
@@ -74,6 +58,65 @@ export const filters = [
     config: {},
   },
   {
+    id: 'subject',
+    label: 'Subject',
+    type: 'SubjectFilter',
+    group: 'primary',
+    // Note: KeywordFilter is fixed filter,
+    // you can't change "queryParamNames: ['keywords'],"
+    queryParamNames: ['subjects'],
+    // NOTE: If you are ordering search results by distance
+    // the keyword search can't be used at the same time.
+    // You can turn on/off ordering by distance from config.js file.
+    config: {},
+  },
+ {
+    id: 'subject',
+    label: 'Subject',
+    type: 'BookingDateRangeFilter',
+    group: 'primary',
+    // Note: BookingDateRangeFilter is fixed filter,
+    // you can't change "queryParamNames: ['dates'],"
+    queryParamNames: ['subject'],
+    config: {},
+  },
+  {
+    id: 'dates',
+    label: 'Dates',
+    type: 'BookingDateRangeFilter',
+    group: 'primary',
+    // Note: BookingDateRangeFilter is fixed filter,
+    // you can't change "queryParamNames: ['dates'],"
+    queryParamNames: ['dates'],
+    config: {},
+  },
+  {
+    id: 'dates',
+    label: 'Amenities',
+    type: 'BookingDateRangeFilter',
+    group: 'primary',
+    // Note: BookingDateRangeFilter is fixed filter,
+    // you can't change "queryParamNames: ['dates'],"
+    queryParamNames: ['amenities'],
+    config: {},
+  },
+  // {
+  //   id: 'price',
+  //   label: 'Price',
+  //   type: 'PriceFilter',
+  //   group: 'primary',
+  //   // Note: PriceFilter is fixed filter,
+  //   // you can't change "queryParamNames: ['price'],"
+  //   queryParamNames: ['price'],
+  //   // Price filter configuration
+  //   // Note: unlike most prices this is not handled in subunits
+  //   config: {
+  //     min: 0,
+  //     max: 1000,
+  //     step: 5,
+  //   },
+  // },
+   {
     id: 'category',
     label: 'Category',
     type: 'SelectSingleFilter',
@@ -88,12 +131,12 @@ export const filters = [
         { key: 'university', label: 'University' },
         { key: 'college', label: 'College' },
         { key: 'secondary', label: 'Secondary' },
-        { key: 'virtualevent', label: 'Virtual Event' },
+        // { key: 'virtualevent', label: 'Virtual Event' },
       ],
     },
   },
   {
-    id: 'amenities',
+    id: 'subjects',
     label: 'Subjects',
     type: 'SelectMultipleFilter',
     group: 'secondary',

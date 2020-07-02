@@ -44,10 +44,16 @@ exports[`SearchPageComponent matches snapshot 1`] = `
             },
             "group": "primary",
             "id": "price",
-            "label": "Price",
+            "label": "Price", Object {
+            "config": Object {},
+            "group": "primary",
+            "id": "keyword",
+            "label": "Keyword",
             "queryParamNames": Array [
-              "price",
+              "keywords",
             ],
+            "type": "KeywordFilter",
+          },
             "type": "PriceFilter",
           },
           Object {

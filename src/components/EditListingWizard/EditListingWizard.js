@@ -20,6 +20,8 @@ import { StripeConnectAccountForm } from '../../forms';
 
 import EditListingWizardTab, {
   AVAILABILITY,
+  AMENITIES,
+  SUBJECTS,
   DESCRIPTION,
   FEATURES,
   POLICY,
@@ -38,6 +40,8 @@ const availabilityMaybe = config.enableAvailability ? [AVAILABILITY] : [];
 // and listing publishing happens after last panel.
 export const TABS = [
   DESCRIPTION,
+  AMENITIES,
+  SUBJECTS,
   FEATURES,
   POLICY,
   LOCATION,
@@ -53,7 +57,11 @@ const STRIPE_ONBOARDING_RETURN_URL_FAILURE = 'failure';
 
 const tabLabel = (intl, tab) => {
   let key = null;
-  if (tab === DESCRIPTION) {
+  if (tab === SUBJECTS) {
+    key = 'EditListingWizard.tabLabelSubjects';
+  }else if (tab === AMENITIES) {
+    key = 'EditListingWizard.tabLabelAmenities';
+  }else if (tab === DESCRIPTION) {
     key = 'EditListingWizard.tabLabelDescription';
   } else if (tab === FEATURES) {
     key = 'EditListingWizard.tabLabelFeatures';

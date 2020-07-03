@@ -37,14 +37,14 @@ export const filters = [
   {
     id: 'category',
     label: 'Category',
-    type: 'BookingDateRangeFilter',
+    type: 'KeywordFilter',
     group: 'primary',
     // Note: BookingDateRangeFilter is fixed filter,
     // you can't change "queryParamNames: ['dates'],"
     queryParamNames: ['category'],
     config: {},
   },
-   {
+  {
     id: 'keyword',
     label: 'Keyword',
     type: 'KeywordFilter',
@@ -60,20 +60,7 @@ export const filters = [
   {
     id: 'subject',
     label: 'Subject',
-    type: 'SubjectFilter',
-    group: 'primary',
-    // Note: KeywordFilter is fixed filter,
-    // you can't change "queryParamNames: ['keywords'],"
-    queryParamNames: ['subjects'],
-    // NOTE: If you are ordering search results by distance
-    // the keyword search can't be used at the same time.
-    // You can turn on/off ordering by distance from config.js file.
-    config: {},
-  },
- {
-    id: 'subject',
-    label: 'Subject',
-    type: 'BookingDateRangeFilter',
+    type: 'KeywordFilter',
     group: 'primary',
     // Note: BookingDateRangeFilter is fixed filter,
     // you can't change "queryParamNames: ['dates'],"
@@ -91,9 +78,9 @@ export const filters = [
     config: {},
   },
   {
-    id: 'dates',
+    id: 'amenities',
     label: 'Amenities',
-    type: 'BookingDateRangeFilter',
+    type: 'KeywordFilter',
     group: 'primary',
     // Note: BookingDateRangeFilter is fixed filter,
     // you can't change "queryParamNames: ['dates'],"
@@ -131,7 +118,7 @@ export const filters = [
         { key: 'university', label: 'University' },
         { key: 'college', label: 'College' },
         { key: 'secondary', label: 'Secondary' },
-        // { key: 'virtualevent', label: 'Virtual Event' },
+      //  { key: 'virtualevent', label: 'Virtual Event' },
       ],
     },
   },

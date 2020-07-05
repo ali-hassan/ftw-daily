@@ -37,7 +37,11 @@ const GetListedPage = () => {
         <LayoutWrapperMain className={css.staticPageWrapper}>
 
         <div class="elementor-widget-container">
-             <div class="elementor-text-editor elementor-clearfix"><p>open day</p></div>
+             <div class="elementor-text-editor elementor-clearfix">
+                  <p>
+                    <strong>OPEN DAY</strong>
+                  </p>
+            </div>
         </div>
 
         <div class="elementor-widget-container">

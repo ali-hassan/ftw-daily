@@ -12,6 +12,7 @@ import {
 } from '../../components';
 
 import css from './FeaturePage.css';
+import './FeaturePage.css';
 import image from './about-us-1056.jpg';
 
 const FeaturePage = () => {
@@ -36,32 +37,32 @@ const FeaturePage = () => {
 
         <LayoutWrapperMain className={css.staticPageWrapper}>
           <div
-            class="elementor-element elementor-element-a014d63 elementor-widget elementor-widget-heading"
+            classNam="elementor-element elementor-element-a014d63 elementor-widget elementor-widget-heading"
             data-id="a014d63"
             data-element_type="widget"
             data-widget_type="heading.default"
           >
-            <div class="elementor-widget-container">
-              <h1 class="elementor-heading-title elementor-size-default">Features</h1>{' '}
+            <div classNam="elementor-widget-container">
+              <h1 className="elementor-heading-title elementor-size-default">Features</h1>{' '}
             </div>
           </div>
 
           <div
-            class="elementor-element elementor-element-00adb05 elementor-widget elementor-widget-text-editor"
+            classNam="css.elementor-element elementor-element-00adb05 elementor-widget elementor-widget-text-editor"
             data-id="00adb05"
             data-element_type="widget"
             data-widget_type="text-editor.default"
           >
-            <div class="elementor-widget-container">
-              <div class="elementor-text-editor elementor-clearfix">
+            <div classNam="elementor-widget-container">
+              <div classNam="elementor-text-editor elementor-clearfix">
                 <p>Learn How to Easily Find Open Days Using Our Tool</p>
               </div>
             </div>
           </div>
 
 
-          <div class="elementor-text-editor elementor-clearfix">
-                           <p><strong>Great way to find all your open days in the UK</strong></p>
+          <div classNam="elementor-text-editor elementor-clearfix">
+                           <p><h3>Great way to find all your open days in the UK</h3></p>
                            <p>
                                Whether you are a student looking for university open days or a university all set to organise your next open day event, 
                                Find Open Days is a convenient tool for you.</p><p>As a student, 
@@ -80,10 +81,10 @@ const FeaturePage = () => {
 
           <div className={css.contentWrapper}>
             <div className={css.contentSide}>
-              <div class="elementor-image">
+              <div classNam="elementor-image">
                 <img
                   src="https://findopendaysz.kinsta.cloud/wp-content/uploads/2020/04/find-open-days-features-for-students-and-university.png"
-                  class="attachment-large size-large"
+                  classNam="attachment-large size-large"
                   alt=""
                   srcset="https://findopendaysz.kinsta.cloud/wp-content/uploads/2020/04/find-open-days-features-for-students-and-university.png 320w, https://findopendaysz.kinsta.cloud/wp-content/uploads/2020/04/find-open-days-features-for-students-and-university-165x300.png 165w"
                   sizes="(max-width: 320px) 100vw, 320px"
@@ -92,20 +93,20 @@ const FeaturePage = () => {
             </div>
 
             <div className={css.contentMain}>
-              <div class="elementor-widget-container">
-                <div class="elementor-text-editor elementor-clearfix">
+              <div classNam="elementor-widget-container">
+                <div classNam="elementor-text-editor elementor-clearfix">
                   <h1>For Students and Universities</h1>
                 </div>
               </div>
 
               <div
-                class="elementor-element elementor-element-024b4d3 elementor-widget elementor-widget-text-editor"
+                classNam="elementor-element elementor-element-024b4d3 elementor-widget elementor-widget-text-editor"
                 data-id="024b4d3"
                 data-element_type="widget"
                 data-widget_type="text-editor.default"
               >
-                <div class="elementor-widget-container">
-                  <div class="elementor-text-editor elementor-clearfix">
+                <div classNam="elementor-widget-container">
+                  <div classNam="elementor-text-editor elementor-clearfix">
                     
                     <p>
                       <strong>Great way to find all your open days in the UK</strong>
@@ -133,20 +134,20 @@ const FeaturePage = () => {
 
           <div className={css.contentWrapper}>
             <div className={css.contentSide}>
-            <div class="elementor-widget-container">
-                 <div class="elementor-text-editor elementor-clearfix">
+            <div classNam="elementor-widget-container">
+                 <div classNam="elementor-text-editor elementor-clearfix">
                     <h1>Great Filters</h1>
                   </div>
                 </div>
 
               <div
-                class="elementor-element elementor-element-68db843 elementor-widget elementor-widget-text-editor"
+                classNam="elementor-element elementor-element-68db843 elementor-widget elementor-widget-text-editor"
                 data-id="68db843"
                 data-element_type="widget"
                 data-widget_type="text-editor.default"
               >
-                <div class="elementor-widget-container">
-                  <div class="elementor-text-editor elementor-clearfix">
+                <div classNam="elementor-widget-container">
+                  <div classNam="elementor-text-editor elementor-clearfix">
                     <p>
                       <strong>
                         Our listings make it easy to navigate to the organiser’s booking page
@@ -168,7 +169,7 @@ const FeaturePage = () => {
             </div>
 
             <div className={css.contentMain}>
-              <div class="elementor-image">
+              <div classNam="elementor-image">
                 <img
                   src="https://findopendaysz.kinsta.cloud/wp-content/uploads/2020/04/find-open-days-features-great-filters.png"
                   className="attachment-large size-large"
@@ -192,11 +193,11 @@ const FeaturePage = () => {
             </div>
 
             <div className={css.contentMain}>
-                  <div class="elementor-text-editor elementor-clearfix">
+                  <div classNam="elementor-text-editor elementor-clearfix">
                     <h1>Book Your Place in the Event{' '}</h1>
                   </div>
 
-              <div class="elementor-text-editor elementor-clearfix">
+              <div classNam="elementor-text-editor elementor-clearfix">
                 <p>
                   {' '}
                   <strong>
@@ -218,27 +219,27 @@ const FeaturePage = () => {
 
           <div className={css.contentWrapper}>
             <div className={css.contentSide}>
-              <div class="elementor-widget-wrap">
+              <div classNam="elementor-widget-wrap">
                 <div
-                  class="elementor-element elementor-element-38d024e elementor-widget elementor-widget-text-editor"
+                  classNam="elementor-element elementor-element-38d024e elementor-widget elementor-widget-text-editor"
                   data-id="38d024e"
                   data-element_type="widget"
                   data-widget_type="text-editor.default"
                 >
-                  <div class="elementor-widget-container">
-                    <div class="elementor-text-editor elementor-clearfix">
+                  <div classNam="elementor-widget-container">
+                    <div classNam="elementor-text-editor elementor-clearfix">
                       <h1> Rate and Review your experience </h1>
                     </div>
                   </div>
                 </div>
                 <div
-                  class="elementor-element elementor-element-3217fa6 elementor-widget elementor-widget-text-editor"
+                  classNam="elementor-element elementor-element-3217fa6 elementor-widget elementor-widget-text-editor"
                   data-id="3217fa6"
                   data-element_type="widget"
                   data-widget_type="text-editor.default"
                 >
-                  <div class="elementor-widget-container">
-                    <div class="elementor-text-editor elementor-clearfix">
+                  <div classNam="elementor-widget-container">
+                    <div classNam="elementor-text-editor elementor-clearfix">
                       <p>
                         <strong>Don’t Forget to Give Back!</strong>
                       </p>
@@ -258,7 +259,7 @@ const FeaturePage = () => {
             </div>
 
             <div className={css.contentMain}>
-              <div class="elementor-image">
+              <div classNam="elementor-image">
                 <img
                   src="https://findopendaysz.kinsta.cloud/wp-content/uploads/2020/04/find-open-days-features-rate-and-review.png"
                   className="attachment-large size-large"

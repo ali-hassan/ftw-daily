@@ -21,7 +21,7 @@ const GetListedPage = () => {
   // prettier-ignore
   return (
     <StaticPage
-      title="About Us"
+      title="Get Listed"
       schema={{
         '@context': 'http://schema.org',
         '@type': 'GetListed',

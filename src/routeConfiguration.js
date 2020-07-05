@@ -82,7 +82,7 @@ const routeConfiguration = () => {
       component: HelpPage,
     },
     {
-      path: '/getListed',
+      path: '/getlisted',
       name: 'GetListedPage',
       component: GetListedPage,
     },

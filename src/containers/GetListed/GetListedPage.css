@@ -26,6 +26,7 @@
 .contentWrapper {
   display: flex;
   flex-wrap: wrap;
+  width: 100%;
 
   @media (--viewportMedium) {
     flex-wrap: nowrap;
@@ -33,20 +34,23 @@
 }
 
 .contentSide {
-  font-style: italic;
+  width: 50%;
+  /* font-style: italic; */
 
   @media (--viewportMedium) {
-    width: 193px;
+    width: 421px;
     margin-right: 103px;
     margin-top: 8px;
   }
 }
 
 .contentMain {
-  width: 90%;
+  width: 50%;
 
   @media (--viewportMedium) {
-    max-width: 650px;
+    width: 421px;
+    margin-right: 103px;
+    margin-top: 8px;
   }
 }
 
@@ -54,4 +58,24 @@
   @apply --marketplaceH3FontStyles;
   margin-top: 48px;
   margin-bottom: 24px;
+}
+
+
+/* New Classes */
+
+body.elementor-kit-25 {
+  color: #333333;
+  font-family: "Montserrat", Sans-serif;
+}
+
+body, p {
+  font-family: 'Montserrat', GlacialIndifference, sans-serif !important;
+}
+
+#c27-site-wrapper {
+  background-color: #ffffff;
+}
+
+div, dl, input[type=reset], input[type=search], input[type=submit], li, select, textarea {
+  border-radius: 0;
 }

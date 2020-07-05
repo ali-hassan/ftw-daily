@@ -26,6 +26,7 @@
 .contentWrapper {
   display: flex;
   flex-wrap: wrap;
+  width: 100%;
 
   @media (--viewportMedium) {
     flex-wrap: nowrap;
@@ -33,20 +34,23 @@
 }
 
 .contentSide {
-  font-style: italic;
+  width: 50%;
+  /* font-style: italic; */
 
   @media (--viewportMedium) {
-    width: 193px;
+    width: 421px;
     margin-right: 103px;
     margin-top: 8px;
   }
 }
 
 .contentMain {
-  width: 90%;
+  width: 50%;
 
   @media (--viewportMedium) {
-    max-width: 650px;
+    width: 421px;
+    margin-right: 103px;
+    margin-top: 8px;
   }
 }
 
@@ -54,4 +58,67 @@
   @apply --marketplaceH3FontStyles;
   margin-top: 48px;
   margin-bottom: 24px;
+}
+
+
+/* New Classes */
+
+
+
+.elementor-77 .elementor-element.elementor-element-803d215:not(.elementor-motion-effects-element-type-background), .elementor-77 .elementor-element.elementor-element-803d215 > .elementor-motion-effects-container > .elementor-motion-effects-layer {
+  background-color: #FFFFFF;
+}
+
+.elementor-row {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.elementor-column {
+  position: relative;
+  min-height: 1px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.elementor-77 .elementor-element.elementor-element-00adb05 {
+  color: #484848;
+  font-size: 24px;
+}
+
+elementor-section {
+  position: relative;
+}
+
+.elementor *, .elementor :after, .elementor :before {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.elementor-widget-wrap>.elementor-element {
+  width: 100%;
+}
+
+.elementor-widget-text-editor {
+  color: #7a7a7a;
+  font-family: "Montserrat", Sans-serif;
+  font-weight: 400;
+}
+
+.elementor-widget {
+  position: relative;
+}
+
+.elementor-77 .elementor-element.elementor-element-b421b6e .elementor-text-editor {
+  text-align: left;
+}
+
+.elementor-77 .elementor-element.elementor-element-024b4d3 {
+  color: #484848;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
 }

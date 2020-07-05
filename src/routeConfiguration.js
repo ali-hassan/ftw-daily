@@ -74,7 +74,7 @@ const routeConfiguration = () => {
     {
       path: '/help',
       name: 'HelpPage',
-      component: FeaturePage,
+      component: HelpPage,
     },
     {
       path: '/about',

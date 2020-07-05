@@ -65,7 +65,7 @@
 
 /* New Classes */
 
-bdiv,
+/* bdiv,
 dl,
 input[type=reset],
 input[type=search],
@@ -78,7 +78,7 @@ textarea {
   text-align: center;
   font-family: "Montserrat", sans-serif;
 }
-
+ */
 .elementor-77 .elementor-element.elementor-element-803d215:not(.elementor-motion-effects-element-type-background),
 .elementor-77 .elementor-element.elementor-element-803d215>.elementor-motion-effects-container>.elementor-motion-effects-layer {
   background-color: #FFFFFF;
@@ -102,14 +102,14 @@ elementor-heading-title elementor-size-default {
   margin-bottom: 24px;
 }
 
-p {
+/* p {
   display: block;
   letter-spacing: 0.5px;
   margin-block-start: 1em;
   margin-block-end: 1em;
   margin-inline-start: 0px;
   margin-inline-end: 0px;
-}
+} */
 
 elementor-text-editor elementor-clearfix {
   cursor: default;
@@ -124,7 +124,7 @@ elementor-text-editor elementor-clearfix {
   box-sizing: inherit;
   text-align: center;
   border-radius: 0;
-  align-items: center;
+  align-items: left;
   font-family: "Montserrat", sans-serif;
 }
 
@@ -139,9 +139,9 @@ elementor-text-editor elementor-clearfix {
   border-radius: 0;
   box-sizing: border-box;
   text-align: left;
-}
+} 
 
-h1 {
+/* h1 {
   font-family: "Montserrat", sans-serif;
   font-size: 48px;
   font-weight: 600;
@@ -149,9 +149,10 @@ h1 {
   letter-spacing: -2px;
   margin-top: 24px;
   margin-bottom: 24px;
-}
+}  */
 
-h2 {
+
+ /* h2 {
   font-family: "Montserrat", sans-serif;
   font-size: 30px;
   font-weight: 400;
@@ -159,4 +160,4 @@ h2 {
   letter-spacing: -2px;
   margin-top: 24px;
   margin-bottom: 24px;
-}
+}   */

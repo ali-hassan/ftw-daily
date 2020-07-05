@@ -62,7 +62,7 @@ const FeaturePage = () => {
 
 
           <div classNam="elementor-text-editor elementor-clearfix">
-                           <p><h3>Great way to find all your open days in the UK</h3></p>
+                           <p><strong>Great way to find all your open days in the UK</strong></p>
                            <p>
                                Whether you are a student looking for university open days or a university all set to organise your next open day event, 
                                Find Open Days is a convenient tool for you.</p><p>As a student, 

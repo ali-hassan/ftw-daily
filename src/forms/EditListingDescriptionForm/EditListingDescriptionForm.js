@@ -18,7 +18,7 @@ const EditListingDescriptionFormComponent = props => (
     {...props}
     render={formRenderProps => {
       const {
-        categories,
+        // categories,
         className,
         disabled,
         ready,
@@ -32,7 +32,13 @@ const EditListingDescriptionFormComponent = props => (
         fetchErrors,
       } = formRenderProps;
 
-      console.log("Category",categories);
+      //console.log("Category",categories);
+
+    const categories =  [
+      { key: 'university', label: 'University' },
+      { key: 'college', label: 'College' },
+      { key: 'secondary', label: 'Secondary' },
+    ]
 
       const titleMessage = intl.formatMessage({ id: 'EditListingDescriptionForm.title' });
       const titlePlaceholderMessage = intl.formatMessage({

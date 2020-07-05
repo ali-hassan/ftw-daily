@@ -1,4 +1,7 @@
 export { default as AboutPage } from './AboutPage/AboutPage';
+export { default as FeaturePage } from './Features/FeaturePage';
+export { default as GetListedPage } from './GetListed/GetListedPage';
+export { default as HelpPage }      from './HelpPage/HelpPage';
 export { default as AuthenticationPage } from './AuthenticationPage/AuthenticationPage';
 export { default as CheckoutPage } from './CheckoutPage/CheckoutPage';
 export { default as ContactDetailsPage } from './ContactDetailsPage/ContactDetailsPage';
